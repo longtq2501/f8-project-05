@@ -10,11 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
       rel="stylesheet"
     />
     <!-- ANIMATION -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- FAVICON -->
     <link
       rel="apple-touch-icon"
@@ -261,7 +265,7 @@
                 <span class="deposite__name">Deposite</span>
                 <number class="deposite__number">$32000</number>
               </div>
-              <div class="hero__circle">
+              <div class="hero__circle animate__animated animate__heartBeat">
                 <number class="hero__circle--number">0%</number>
                 <span class="hero__circle--desc">Interest</span>
               </div>
@@ -282,7 +286,7 @@
       </section>
       <section class="feature">
         <div class="feature__inside container">
-          <figure class="feature__media-01">
+          <figure class="feature__media-01" data-aos="fade-up-right">
             <img
               src="./assets/img/feature/Rectangle 4490.svg"
               alt=""
@@ -310,7 +314,7 @@
               </div>
             </div>
           </figure>
-          <section class="feature__text-01">
+          <section class="feature__text-01" data-aos="fade-left">
             <div class="box__sub-title">
               <span class="sub-title">Digital Smart Wallet</span>
             </div>
@@ -345,7 +349,7 @@
               </p>
             </div>
           </section>
-          <section class="feature__text-02">
+          <section class="feature__text-02" data-aos="fade-right">
             <div class="box__sub-title">
               <span class="sub-title">Digital Smart Wallet</span>
             </div>
@@ -365,7 +369,7 @@
             <button class="btn feature__02--btn">Get Started</button>
           </section>
           <figure class="feature__media-02">
-            <div class="feature__md-02--card">
+            <div class="feature__md-02--card" data-aos="fade-left">
               <span class="feature__md-02--desc">Main Balance</span>
               <number class="feature__md-02--number">$78,355.17</number>
               <div class="feature__md-02--info">
@@ -385,7 +389,7 @@
                 </div>
               </div>
             </div>
-            <div class="feature__md-02--subcard">
+            <div class="feature__md-02--subcard" data-aos="zoom-in">
               <div class="hero__service--item">
                 <img
                   src="./assets/img/hero/icon-2.svg"
@@ -397,14 +401,14 @@
                     <h4 class="hero__item--title">Send Money</h4>
                     <number class="hero__item--title">- $600</number>
                   </div>
-                  <div class="hero__item-desc-box">
+                  <div class="feature__md-02--title-box">
                     <span class="hero__item--desc">Airbnb Payment</span>
                     <span class="hero__item--desc">Sep 23</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="feature__md-02--income">
+            <div class="feature__md-02--income" data-aos="zoom-in">
               <img
                 src="./assets/img/feature/Group 17410.svg"
                 alt=""
@@ -425,7 +429,11 @@
               alt=""
               class="feature__md-03--person"
             />
-            <div class="feature__md-03--card">
+            <div
+              class="feature__md-03--card"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <span class="feature__md-03--card-title">
                 Choose payment method:
               </span>
@@ -466,9 +474,10 @@
               src="./assets/img/feature/money.png"
               alt=""
               class="feature__md-03--img-money"
+              data-aos="zoom-out-left"
             />
           </figure>
-          <section class="feature__text-03">
+          <section class="feature__text-03" data-aos="fade-left">
             <div class="box__sub-title">
               <span class="sub-title">Digital Smart Wallet</span>
             </div>
@@ -486,6 +495,74 @@
               <li>Multiple Use Capabilities</li>
             </ul>
             <button class="btn feature__02--btn">Get Started</button>
+          </section>
+        </div>
+      </section>
+      <section class="testimonial">
+        <div class="container">
+          <section class="testimonial__inside">
+            <div class="box__sub-title">
+              <span class="sub-title">Our Testimonial</span>
+            </div>
+            <h2 class="feature__02-title h2__title" style="width: 35.9rem">
+              What Clients Says
+            </h2>
+            <p
+              class="feature__list--desc"
+              style="width: 43.5rem; text-align: center; margin-bottom: 7rem"
+            >
+              Read what clients says about us and about our online banking
+              services that may inspire you
+            </p>
+            <div class="testimonial__comment--box">
+              <!-- item 1 -->
+              <div class="testimonial__comment--item">
+                <div class="testimonial__comment--big">
+                  <p class="testimonial__comment--desc">
+                    Fantastic platform for online banking. The best online
+                    banking platform I have used. Payments, loans, and money
+                    transfers have never been so much easier before. I am very
+                    much happy about this great online bank.
+                  </p>
+                  <div class="testimonial__comment--small"></div>
+                </div>
+                <figure class="testimonial__comment--personal">
+                  <div class="testi__bg">
+                    <img
+                      src="./assets/img/feature/image 731.svg"
+                      alt=""
+                      class="testi__bg--img"
+                    />
+                  </div>
+                  <span class="testi__name">Alastair Cook</span>
+                  <span class="testi__job">Businessmen</span>
+                </figure>
+              </div>
+              <!-- item 2 -->
+              <div class="testimonial__comment--item">
+                <div class="testimonial__comment--big">
+                  <p class="testimonial__comment--desc">
+                    Fantastic platform for online banking. The best online
+                    banking platform I have used. Payments, loans, and money
+                    transfers have never been so much easier before. I am very
+                    much happy about this great online bank.
+                  </p>
+                  <div class="testimonial__comment--small"></div>
+                </div>
+                <figure class="testimonial__comment--personal">
+                    <div class="testi__bg" style="background: #439F90;">
+                      <img
+                        src="./assets/img/feature/image 856.svg"
+                        alt=""
+                        class="testi__bg--img"
+                      />
+                    </div>
+                    <span class="testi__name">Alastair Foaks</span>
+                    <span class="testi__job">Businessmen</span>
+                  </figure>
+              </div>
+            </div>
+            <img src="./assets/img/testimonial/Arrow.svg" alt="" class="testi__icon">
           </section>
         </div>
       </section>
