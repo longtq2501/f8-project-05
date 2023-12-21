@@ -620,3 +620,145 @@ form {
   font-weight: 400;
   line-height: 2.8rem; /* 175% */
 }
+
+.feature__02-title {
+  width: 47rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.feature__02-desc {
+  width: 47rem;
+  color: #696d76;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem; /* 166.667% */
+  margin-bottom: 2.8rem;
+}
+
+.feature__02--list {
+  color: #212832;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 3rem; /* 166.667% */
+}
+
+.feature__02--list li {
+  margin-bottom: 1.8rem;
+  list-style-type: circle inside url("/assets/img/feature/Ellipse\ 2826.svg");
+}
+
+.feature__02--btn {
+  margin-top: 2rem;
+}
+
+.feature__02--list li::before {
+  content: "";
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #7264d6;
+  margin-right: 1.2rem;
+}
+
+.feature__media-02 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.feature__md-02--card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 48.2rem;
+  height: 32.2rem;
+  border-radius: 2rem;
+  background: #8476e3;
+  padding: 3.8rem;
+  translate: 3.5rem 0;
+}
+
+.feature__md-02--desc {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.feature__md-02--number {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 1rem 0rem 9.8rem;
+}
+
+.feature__md-02--info {
+  display: flex;
+}
+
+.feature__md-02--name {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.feature__md-02--user {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.feature__md-02--right {
+  margin-right: 2.6rem;
+}
+
+.feature__md-02--img {
+  position: absolute;
+  right: 3.6rem;
+  top: 3.8rem;
+}
+
+.feature__md-02--subcard {
+  position: absolute;
+  width: 27.6rem;
+  height: 8.6rem;
+  border-radius: 1.2rem;
+  background: #fff;
+  box-shadow: 0px 14px 38px 0px;
+  top: 4rem;
+  right: 0;
+  padding: 2.3rem 1.3rem;
+}
+
+.feature__md-02--income {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 1.6rem;
+  background: #439f90;
+  right: 0;
+  padding: 1.5rem;
+  bottom: 4rem;
+}
+
+.feature__md-02-income--img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.feature__md-02-income--desc {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1.4rem 0rem 0.6rem;
+}
+
+.feature__md-02--money {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 0.7rem;
+}
