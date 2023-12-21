@@ -63,6 +63,13 @@ a {
   top: 50%;
 }
 
+.h2__title {
+  color: #212832;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5rem; /* 125% */
+}
+
 /* ANIMATION */
 
 @keyframes show-bottom-right {
@@ -503,7 +510,7 @@ form {
 }
 
 /* =============== FEATURE ================ */
-
+/* feature__md-01 */
 .feature {
   margin-top: 16rem;
   background: #ccc;
@@ -580,4 +587,36 @@ form {
   font-family: Inter;
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+/* feature__text-01 */
+
+.feature__text-01 {
+  padding: 3rem 0rem 3rem 13rem;
+}
+
+.feature__01-title {
+  width: 29.4rem;
+  margin-bottom: 7rem;
+}
+
+.feature__01--list {
+  margin-bottom: 3rem;
+}
+
+.feature__list--title {
+  width: 47rem;
+  color: #212832;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 3.2rem; /* 145.455% */
+  margin-bottom: 1.6rem;
+}
+
+.feature__list--desc {
+  width: 47rem;
+  color: #696d76;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem; /* 175% */
 }
