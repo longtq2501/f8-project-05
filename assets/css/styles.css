@@ -1024,3 +1024,76 @@ form {
   font-weight: 400;
   line-height: 2.6rem; /* 162.5% */
 }
+
+/* ============= CTA ============== */
+
+.cta {
+  margin-top: 16rem;
+}
+
+.cta__inside {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 46.6rem;
+  border-radius: 2.4rem;
+  background: #7264d6;
+}
+
+.sub-title.cta__separate {
+  position: relative;
+  margin-left: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.sub-title.cta__separate::before {
+  content: "";
+  display: inline-block;
+  width: 1.8rem;
+  height: 0.2rem;
+  background: #fff;
+  translate: -3rem;
+}
+
+.cta__desc {
+  width: 43.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem; /* 175% */
+  margin-bottom: 3.8rem;
+}
+
+.cta__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 38rem;
+}
+
+.star-01 {
+  position: absolute;
+  top: 4.9rem;
+  left: 11.2rem;
+}
+
+.star-02 {
+  position: absolute;
+  top: 4.9rem;
+  right: 11.2rem;
+}
+
+.star-03 {
+  position: absolute;
+  bottom: 4.9rem;
+  left: 16.6rem;
+}
+
+.star-04 {
+  position: absolute;
+  bottom: 4.9rem;
+  right: 16.6rem;
+}
