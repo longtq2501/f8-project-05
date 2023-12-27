@@ -163,7 +163,6 @@
 
 /* ============= MOBILE ============= */
 @media screen and (max-width: 767.98px) {
-
   .menu__drawer {
     inset: 0 40% 0 0;
   }
@@ -394,6 +393,7 @@
 
   .cta__item {
     margin: 0 1rem 1rem;
+    width: calc(100vw - 78px);
   }
 
   .footer {
