@@ -67,6 +67,11 @@
     bottom: 11px;
   }
 
+  .hero,
+  .hero__inside {
+    height: 53.8rem;
+  }
+
   .hero__inside {
     display: flex;
     justify-content: center;
@@ -389,8 +394,9 @@
     font-size: 1rem;
   }
 
-  .cta {
-    margin-top: 10rem;
+  .cta,
+  .footer {
+    margin-top: 6rem;
   }
 
   .cta-position,
@@ -422,6 +428,12 @@
 
   .footer {
     width: 100vw;
+    height: 60.2rem;
+  }
+
+  .footer__inside {
+    min-height: 60.2rem;
+    padding-top: 5rem;
   }
 
   .footer__list--box {
@@ -434,7 +446,7 @@
     grid-auto-columns: 1fr;
     gap: 0px 45px;
     justify-items: center;
-    height: 352px;
+    height: 24rem;
     width: calc(100vw - 50px);
   }
 
@@ -463,5 +475,9 @@
 
   .footer__copyright--box {
     min-height: 8.4rem;
+  }
+
+  .feature__inside {
+    grid-template-rows: 528px 577px 500px 500px 474px 600px;
   }
 }
