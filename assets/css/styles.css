@@ -896,6 +896,12 @@ form {
   align-items: center;
 }
 
+.testimonial__list--desc {
+  width: 43.5rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
 .testi__name {
   color: #070052;
   font-size: 2.6rem;
@@ -993,6 +999,12 @@ form {
   margin-bottom: 7rem;
 }
 
+.blog__main-title {
+  width: 35.9rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1.8rem;
+}
+
 .blog__item {
   display: flex;
   width: 57rem;
@@ -1027,11 +1039,23 @@ form {
   margin: 1rem 0rem 2rem;
 }
 
+.blog__list--desc {
+  width: 43.5rem;
+}
+
 .blog__link {
   color: #7264d6;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem; /* 162.5% */
+}
+
+.blog__btn {
+  width: 12.3rem;
+  height: 5.8rem;
+  margin-top: 0;
+  translate: 0 -23px;
+  white-space: nowrap;
 }
 
 /* ============= CTA ============== */
@@ -1064,6 +1088,12 @@ form {
   height: 0.2rem;
   background: #fff;
   translate: -3rem;
+}
+
+.cta__title {
+  width: 40.2rem;
+  color: #fff;
+  margin-bottom: 1.8rem;
 }
 
 .cta__desc {
