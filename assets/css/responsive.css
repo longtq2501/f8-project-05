@@ -436,4 +436,8 @@
   .footer__btn {
     right: -166px;
   }
+
+  .footer__copyright--box {
+    min-height: 8.4rem;
+  }
 }

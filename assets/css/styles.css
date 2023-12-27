@@ -1145,6 +1145,7 @@ form {
 /* ============= CTA ============== */
 
 .footer {
+  height: 85.4rem;
   margin-top: 10rem;
   background: #fafbff;
 }
