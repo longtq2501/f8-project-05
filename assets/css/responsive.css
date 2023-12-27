@@ -163,6 +163,30 @@
 
 /* ============= MOBILE ============= */
 @media screen and (max-width: 767.98px) {
+  .feature__media-01 {
+    order: 1;
+  }
+
+  .feature__text-01 {
+    order: 2;
+  }
+
+  .feature__media-02 {
+    order: 3;
+  }
+
+  .feature__text-02 {
+    order: 4;
+  }
+
+  .feature__media-03 {
+    order: 5;
+  }
+
+  .feature__text-03 {
+    order: 6;
+  }
+
   .menu__drawer {
     inset: 0 40% 0 0;
   }
