@@ -104,7 +104,7 @@
     <!-- HEADER PC -->
     <header class="header fixed">
       <div class="container">
-        <header class="header__inside">
+        <div class="header__inside">
           <label for="menu__checkbox" class="header__toggle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -134,14 +134,14 @@
             <a href="#!" class="header__login">Log in</a>
             <button class="header__signup btn">Sign up</button>
           </div>
-        </header>
+        </div>
       </div>
     </header>
     <!-- HEADER TABLET -->
     <header class="header__tablet">
       <input
         type="checkbox"
-        name=""
+        name="menu__checkbox"
         id="menu__checkbox"
         class="menu__checkbox"
         hidden
@@ -149,7 +149,7 @@
       <!-- overlay -->
       <label for="menu__checkbox" class="header__overlay"></label>
       <!-- menu__drawer -->
-      <div id="menu__checkbox" class="menu__drawer">
+      <div class="menu__drawer">
         <!-- Logo -->
         <a href="#">
           <img
@@ -203,7 +203,7 @@
                 <div class="hero__camera"></div>
                 <div class="hero__card">
                   <span class="hero__card--desc">Main Balance</span>
-                  <number class="hero__card--number">$78,355.17</number>
+                  <span class="hero__card--number">$78,355.17</span>
                   <div class="hero__card--info-box">
                     <!-- col 1 -->
                     <div class="hero__card--info">
@@ -236,7 +236,7 @@
                     <div class="hero__info">
                       <div class="hero__item--title-box">
                         <h4 class="hero__item--title">Received Money</h4>
-                        <number class="hero__item--title">+$1,600</number>
+                        <span class="hero__item--title">+$1,600</span>
                       </div>
                       <div class="hero__item-desc-box">
                         <span class="hero__item--desc">email@gmail.com</span>
@@ -254,7 +254,7 @@
                     <div class="hero__info">
                       <div class="hero__item--title-box">
                         <h4 class="hero__item--title">Send Money</h4>
-                        <number class="hero__item--title">- $600</number>
+                        <span class="hero__item--title">- $600</span>
                       </div>
                       <div class="hero__item-desc-box">
                         <span class="hero__item--desc">Airbnb Payment</span>
@@ -272,7 +272,7 @@
                     <div class="hero__info">
                       <div class="hero__item--title-box">
                         <h4 class="hero__item--title">Received Money</h4>
-                        <number class="hero__item--title">+$1,600</number>
+                        <span class="hero__item--title">+$1,600</span>
                       </div>
                       <div class="hero__item-desc-box">
                         <span class="hero__item--desc">email@gmail.com</span>
@@ -290,7 +290,7 @@
                     <div class="hero__info">
                       <div class="hero__item--title-box">
                         <h4 class="hero__item--title">Pay Bill</h4>
-                        <number class="hero__item--title">- $600</number>
+                        <span class="hero__item--title">- $600</span>
                       </div>
                       <div class="hero__item-desc-box">
                         <span class="hero__item--desc">Electricity Bill</span>
@@ -307,10 +307,10 @@
                   class="deposite__icon"
                 />
                 <span class="deposite__name">Deposite</span>
-                <number class="deposite__number">$32000</number>
+                <span class="deposite__number">$32000</span>
               </div>
               <div class="hero__circle animate__animated animate__heartBeat">
-                <number class="hero__circle--number">0%</number>
+                <span class="hero__circle--number">0%</span>
                 <span class="hero__circle--desc">Interest</span>
               </div>
               <div class="hero__secure">
@@ -415,7 +415,7 @@
           <figure class="feature__media-02">
             <div class="feature__md-02--card">
               <span class="feature__md-02--desc">Main Balance</span>
-              <number class="feature__md-02--number">$78,355.17</number>
+              <span class="feature__md-02--number">$78,355.17</span>
               <div class="feature__md-02--info">
                 <div class="hero__card--info feature__md-02--right">
                   <span class="feature__md-02--name">VALID THUR</span>
@@ -443,7 +443,7 @@
                 <div class="hero__info">
                   <div class="hero__item--title-box">
                     <h4 class="hero__item--title">Send Money</h4>
-                    <number class="hero__item--title">- $600</number>
+                    <span class="hero__item--title">- $600</span>
                   </div>
                   <div class="feature__md-02--title-box">
                     <span class="hero__item--desc">Airbnb Payment</span>
@@ -459,7 +459,7 @@
                 class="feature__md-02-income--img"
               />
               <span class="feature__md-02-income--desc">Income</span>
-              <number class="feature__md-02--money">$1250</number>
+              <span class="feature__md-02--money">$1250</span>
             </div>
           </figure>
           <figure class="feature__media-03">
@@ -776,7 +776,7 @@
                 <input
                   type="email"
                   name="email"
-                  id="email"
+                  id="footer__email"
                   placeholder="Email address..."
                 />
                 <button class="footer__btn">Subscribe</button>
